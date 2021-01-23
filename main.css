@@ -1,0 +1,130 @@
+/* Body Style */
+
+body {
+  background: rgb(238, 231, 231);
+}
+
+/* Header Styles */
+
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+}
+
+h1 {
+  text-align: left;
+}
+
+hr {
+  height: 10px;
+  background-color: black;
+  border: 5px black;
+}
+
+/* Intro Section Style */
+.intro,
+.aboutme,
+.contactinfo {
+  align-self: center;
+  margin-left: 25%;
+  height: 50%;
+  width: 50%;
+}
+
+.intro > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 45%;
+  width: 45%;
+  border: 5px solid black;
+}
+
+.introinfo > p,
+ul {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 24px;
+}
+
+.introinfo > p {
+  text-align: center;
+}
+
+.introinfo > ul {
+  margin-left: 40%;
+  margin-right: 5%;
+}
+
+.introinfo > p > a {
+  text-decoration: none;
+  color: black;
+}
+
+/* About Me Section Style */
+
+.aboutmealign {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutmealign > p {
+  height: 65%;
+  width: 65%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 24px;
+}
+
+.aboutmealign > img {
+  height: 35%;
+  width: 35%;
+  border: 5px solid rgb(97, 96, 96);
+}
+
+/* Contact Info Section Style */
+
+.contactinfo {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactinfo > p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 24px;
+}
+
+/* Contact Info List Style */
+.contactinfo > p > a,
+.contactinfo > ol > li > a {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+}
+
+.contactinfo > ol {
+  list-style-type: none;
+}
+
+.contactinfo > ol > li {
+  margin: 10px 10px 10px 10px;
+  border: 5px solid black;
+  border-radius: 10%;
+}
+
+.contactinfo > ol > li:hover {
+  border: 5px solid grey;
+}
+
+/* Footer Style */
+footer > p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 14px;
+}
