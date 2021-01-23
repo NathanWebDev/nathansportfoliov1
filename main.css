@@ -29,6 +29,7 @@ hr {
 .intro,
 .aboutme,
 .contactinfo {
+  padding: auto;
   align-self: center;
   margin-left: 25%;
   height: 50%;
@@ -72,9 +73,11 @@ ul {
   justify-content: center;
 }
 
-.aboutmealign > p {
-  height: 65%;
-  width: 65%;
+.aboutmealign > .spacing > p {
+  display: inline-flex;
+  flex-direction: column;
+  height: 75%;
+  width: 85%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 24px;
 }
